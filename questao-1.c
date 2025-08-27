@@ -3,6 +3,6 @@
 #include <string.h>
 
 int main(void){
-    printf("Inicio do programa \n Fim");
+    printf("Inicio do programa \nFim\n");
     return 0;
 }
