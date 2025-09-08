@@ -12,7 +12,7 @@ $(MAKECMDGOALS):
 	# Compile questao-$(MAKECMDGOALS).c into questao-$(MAKECMDGOALS).out
 	$(CC) $(CFLAGS) questao-$@.c -o questao-$@.out
 	# Run the compiled binary
-	./questao-$@.out
+	./atividade-3/questao-$@.out
 
 # Rule to remove generated binaries and object files
 clean:
