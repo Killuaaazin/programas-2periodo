@@ -10,7 +10,7 @@ CFLAGS = -Wall -Wextra -std=c99
 # The '$(MAKECMDGOALS)' is a special variable that holds the names of the targets given on the command line
 $(MAKECMDGOALS):
 	# Compile questao-$(MAKECMDGOALS).c into questao-$(MAKECMDGOALS).out
-	$(CC) $(CFLAGS) questao-$@.c -o questao-$@.out
+	$(CC) $(CFLAGS) atividade-3/questao-$@.c -o atividade-3/questao-$@.out
 	# Run the compiled binary
 	./atividade-3/questao-$@.out
 

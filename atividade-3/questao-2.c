@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    
-int n,i=0;
+
+int i=0;
 
 printf("Digite um numero inteiro positivo: \n");
-scanf("%d",&n);
-    for(;i<=n;i++){
+scanf("%d",&i);
+    for(;i>=0;i--){
         printf("%d\n",i);
 
 }
